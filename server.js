@@ -3,23 +3,28 @@
 
  //Routes
  app.get('/', home);
- app.get('/home', helloWorld);
  app.get('/about', about);
-
+ app.get('/projects', projects);
+ app.get('/contact', contact);
 
 
  //Controllers
  function home(req, res) {
-     res.send('Welcome Home');
- }
-
- function helloWorld(req, res) {
-     res.send('Hello World');
+     res.send('Home');
  }
 
  function about(req, res) {
      res.send('About me');
  }
+
+ function projects(req, res) {
+     res.send('Projects page');
+ }
+
+ function contact(req, res) {
+     res.send('Contact Me');
+ }
+
 
  //sets the port and runs the app
  app.listen(3000);
