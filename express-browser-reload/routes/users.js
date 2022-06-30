@@ -8,17 +8,15 @@ router.get('/', function(req, res, next) {
 
 router.get('/show', showUser);
 
-
-
 function showUser(req, res, next) {
-    res.render {
-        'users',
-        {
-            title: 'Pofile',
-            userName: 'tahmid'
+    res.render(
+        'users', {
+            title: 'Express',
+            userName: 'Ahnaf'
         }
-    }
 
-};
+    );
+
+}
 
 module.exports = router;

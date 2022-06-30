@@ -6,14 +6,13 @@ router.get('/', home);
 
 
 function home(req, res, next) {
-    res.render {
-        'index',
-        {
+    res.render(
+        'index', {
             title: 'Express',
             userName: 'Ahnaf'
         }
-    }
+    );
 
-};
+}
 
 module.exports = router;
