@@ -1,12 +1,12 @@
-<%- include('./partials/header.ejs'); %>
+<%- include('partials/header.ejs'); %>
     <div class="wrapper-container">
-        <%- include('./partials/navbar.ejs'); %>
+        <%- include('partials/navbar.ejs'); %>
 
-            <section id="aboutme" class="aboutMe">
+            <section id="aboutme" class="about-Me">
 
                 <div style="padding-top: 20px;">
                     <h2>About me</h2>
-                    <img src="me.jpg" />
+                    <img src="/info/me.jpg" />
                     <table>
                         <tr>
                             <td>Name: </td>
@@ -23,9 +23,10 @@
                         </tr>
                         <tr>
                             <td>Resume: </td>
-                            <td><a href="Ahnaf Tahmid.pdf">Click Here</a></td>
+                            <td><a href="/info/Ahnaf Tahmid.pdf">Click Here</a></td>
                         </tr>
                     </table>
                 </div>
             </section>
-            <%- include('./partials/footer.ejs'); %>
+    </div>
+    <%- include('partials/footer.ejs'); %>
