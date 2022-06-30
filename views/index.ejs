@@ -1,27 +1,11 @@
-<html>
-
-<head></head>
-
-<body>
-    <table>
-        <tr><img src="logo.png" height="200px" /></tr>
-        <tr>
-            <td><a href="index.html">Home</a></td>
-            <td><a href="about_us.html">About me</a></td>
-            <td><a href="projects.html">Projects</a></td>
-            <td><a href="services.html">Services</a></td>
-            <td><a href="contacts.html">Contact Me</a></td>
-        </tr>
-    </table>
-    <div style="padding-top: 100px;">
-        Hey! I'm glad you could make it.
-        <br> This website will tell you a little about me.
-        <br> Also, I think you might be a little confused after seeing the logo but that is the logo of the e-commerce website I'm building. It's still in progress but I'll let you take a quick peak : </br> <a href="pic1.png">click here</a>
-        <br> You can <a href="about_us.html">click here</a> to know more about me.
-        <br><br><br>
-        <strong>Mission</strong> <br>I am an engineer. I apply analytic thinking to problems and find a pragmatic solution that isn't a quick fix, but a lasting value.
-    </div>
-</body>
-<p>&copy;Copyright Ahnaf Tahmid - Assignment1 - Student No: 301221126 - COMP229 - WINTER 2022</p>
-
-</html>
+<% if (title=="Home" ) { %>
+    <%- include('./home') %>
+        <% } else if (title=="About Me" ) { %>
+            <%- include('./about_us') %>
+                <% } else if (title=="My Services" ) { %>
+                    <%- include('./services') %>
+                        <% } else if (title=="Projects" ) { %>
+                            <%- include('./projects') %>
+                                <% } else if (title=="Contact Me" ) { %>
+                                    <%- include('./contacts') %>
+                                        <% } %>
