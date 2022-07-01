@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-/* File name: www.js
+/* File name: server.js
 Student name: Ahnaf Tahmid
 StudentID: 301221126
 Date: 1st July 2022 */
@@ -11,7 +11,7 @@ Date: 1st July 2022 */
  * Module dependencies. 
  */
 
-var app = require('./server/config/app');
+var app = require('./config/app');
 var debug = require('debug')('comp229.003.assignment1:server');
 var http = require('http');
 
