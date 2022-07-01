@@ -1,17 +1,13 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-    res.send('respond with a resource');
-});
+router.get('/', userspage);
 
-router.get('/show', showUser);
 
-function showUser(req, res, next) {
+function userspage(req, res, next) {
     res.render(
         'users', {
-            title: 'Express',
+            title: 'Users',
             userName: 'Ahnaf'
         }
 
