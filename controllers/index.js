@@ -1,4 +1,4 @@
-/* File name: style.css
+/* File name: index.js
 Student name: Ahnaf Tahmid
 StudentID: 301221126
 Date: 1st July 2022 */
@@ -36,7 +36,7 @@ module.exports.routeToServices = (req, res, next) => {
 
 module.exports.routeToContactMe = (req, res, next) => {
     res.render("index", {
-        title: "Contacts",
+        title: "Contact Me",
         displayName: req.user ? req.user.displayName : "",
     });
 };

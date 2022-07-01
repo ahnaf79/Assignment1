@@ -12,6 +12,10 @@ body {
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+.logo {
+    margin: 10px auto auto 46px;
+}
+
 a {
     color: #00B7FF;
 }
@@ -76,56 +80,56 @@ h3 {
     display: flex;
 }
 
-.about-Me h2 {
+.aboutme h2 {
     margin: 28px auto;
 }
 
-.about-Me h3 {
+.aboutme h3 {
     margin: 16px auto;
 }
 
-.about-Me p {
+.aboutme p {
     color: #3d5a80;
     font-size: 1.5em;
     margin: 0 8px 15px;
 }
 
-.my-service h2 {
+.myservice h2 {
     margin: 28px auto;
 }
 
-.my-service h3 {
+.myservice h3 {
     margin: 16px auto;
 }
 
-.my-service p {
+.myservice p {
     color: #000000;
     font-size: 1.5em;
     margin: 0 8px 15px;
 }
 
-.my-project {
+.myproject {
     height: 850px;
 }
 
-.my-project h2 {
+.myproject h2 {
     margin: 28px auto 14px;
 }
 
-.my-project>.flex-container {
+.myproject>.flex-container {
     margin-top: 0;
 }
 
-.my-project h3 {
+.myproject h3 {
     margin-top: 5px;
 }
 
-.contact-Me-section h2 {
+.contactme h2 {
     margin: 28px auto 14px;
     padding-top: 0.5em;
 }
 
-.contact-Me-section p {
+.contactme p {
     color: #293241;
     font-size: 1.3em;
     margin-left: 6px;

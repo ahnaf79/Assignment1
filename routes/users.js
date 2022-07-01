@@ -1,4 +1,4 @@
-/* File name: style.css
+/* File name: users.js
 Student name: Ahnaf Tahmid
 StudentID: 301221126
 Date: 1st July 2022 */
