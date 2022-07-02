@@ -29,7 +29,7 @@ module.exports.routeToProjects = (req, res, next) => {
 
 module.exports.routeToSer = (req, res, next) => {
     res.render("index", {
-        title: "Services",
+        title: "My Services",
         displayName: req.user ? req.user.displayName : "",
     });
 };
