@@ -27,12 +27,19 @@ module.exports.routeToProjects = (req, res, next) => {
     });
 };
 
-module.exports.routeToServices = (req, res, next) => {
+module.exports.routeToSer = (req, res, next) => {
     res.render("index", {
         title: "Services",
         displayName: req.user ? req.user.displayName : "",
     });
 };
+
+// module.exports.routeToServices = (req, res, next) => {
+//     res.render("index", {
+//         title: "Services",
+//         displayName: req.user ? req.user.displayName : "",
+//     });
+// };
 
 module.exports.routeToContactMe = (req, res, next) => {
     res.render("index", {
